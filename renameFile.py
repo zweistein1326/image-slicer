@@ -16,4 +16,4 @@ for i in range(1, 11):
                 if(type(l) is not str and int(l) < 10):
                     l = '0' + str(l)
                 os.rename('punks_'+str(i)+'_'+str(j)+'_'+str(k)+'_'+str(l)+'.png',
-                          'punk'+str(((int(i)-1)*1000)+((int(j)-1)*100)+((int(k)-1)*10)+int(l))+'.png')
+                          'punk'+str(((int(i)-1)*1000)+((int(j)-1)*10)+((int(k)-1)*100)+int(l)-1)+'.png')
